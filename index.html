@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Demonstration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CSS Box Model & Styling</h1>
+            <p>Understanding the fundamentals of web layout</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="intro">
+            <h2>The CSS Box Model</h2>
+            <p>Every element in web design is a rectangular box. The Box Model describes how the padding, border, and margin affect the space around and within these boxes.</p>
+        </section>
+
+        <section class="box-model-demo">
+            <div class="box-model-container">
+                <div class="margin-box">
+                    Margin
+                    <div class="border-box">
+                        Border
+                        <div class="padding-box">
+                            Padding
+                            <div class="content-box">
+                                Content
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cards">
+            <h2>Card Components</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Card Title 1</h3>
+                    <p>This is a demonstration of the box model in a card component. Notice the padding, margins, and borders.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Card Title 2</h3>
+                    <p>This is another card with the same structure but different styling to show consistency with variation.</p>
+                    <button>View Details</button>
+                </div>
+                <div class="card">
+                    <h3>Card Title 3</h3>
+                    <p>Cards are great for organizing content in a visually appealing way that follows design principles.</p>
+                    <button>See Examples</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="spacing-demo">
+            <h2>Spacing Examples</h2>
+            <div class="spacing-container">
+                <div class="spacing-item">
+                    <h3>Margin Example</h3>
+                    <div class="margin-example">
+                        <div class="box">Box 1</div>
+                        <div class="box">Box 2</div>
+                    </div>
+                </div>
+                <div class="spacing-item">
+                    <h3>Padding Example</h3>
+                    <div class="padding-example">
+                        <div class="box">Box with padding</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-demo">
+            <h2>Form Styling</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 CSS Box Model Demonstration. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
